@@ -68,6 +68,15 @@ async def _(event):
     await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
 
 
+@man_cmd(pattern="ay(?: |$)(.*)")
+async def _(event):
+    xx = await edit_or_reply(event, "**Aku lagi nyari ayang baru?**")
+    sleep(2)
+    await xx.edit("**Kamu mau nggak jadi ayang aku?**")
+    sleep(3)
+    await xx.edit("**Please mau yah jadi ayang aku💖**")
+
+
 CMD_HELP.update(
     {
         "salam": f"**Plugin : **`salam`\
@@ -89,6 +98,7 @@ CMD_HELP.update(
         \n  •  **Function : **LU SEMUA NGENTOT 🔥\
         \n\n  •  **Syntax :** `{cmd}j`\
         \n  •  **Function : **NIMBRUNG GOBLOKK!!!🔥\
+        \n\n . **Function : **mau gak jadi ayang!\
     "
     }
 )
