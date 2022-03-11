@@ -54,7 +54,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/mrismanaziz/Man-Userbot`
+-  `git clone https://github.com/gammingapps/Man-Userbot`
 -  `cd Man-Userbot`
 -  `pip3 install -r requirements.txt`
 -  `mv sample_config.env config.env`
